@@ -1,0 +1,86 @@
+#image {
+  position: relative;
+  border: 1px solid white;
+  overflow: hidden;
+  width: 300px;
+}
+
+#image img {
+  max-width: 100%;
+  -webkit-transition: all 0.5s;
+  
+}
+
+#image:hover img {
+  -webkit-transform: scale(1.1);
+}
+
+#cover img{
+  width: 100%;
+  height:50p%;
+}
+
+#text1{
+  font-size: 25px;
+  position: relative;
+  top:-75px;
+  left:10px;
+
+}
+
+#text2{
+  font-size: 15px;
+  position: relative;
+  top:-75px;
+  left:10px;
+}
+
+#text1{
+
+  color: white;
+  -webkit-animation-name: computing; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 6s; /* Chrome, Safari, Opera */
+  animation-name: computing;
+  animation-duration: 6s;
+}
+
+#text2{
+
+  color: white;
+  -webkit-animation-name: computing; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 6s; /* Chrome, Safari, Opera */
+  animation-name: computing;
+  animation-duration: 6s;
+}
+
+/* Chrome, Safari, Opera */
+@keyframes computing {
+  from {color: green;}
+  to {color: white;}
+}
+
+#text3{
+  font-size: 20px;
+}
+
+#text4 a{
+  text-decoration: none;
+
+}
+
+body {
+  background-color: #eee;
+}
+
+*[role="form"] {
+  max-width: 530px;
+  padding: 15px;
+  margin: 0 auto;
+  background-color: #efeff5;
+  border-radius: 0.3em;
+}
+
+*[role="form"] h2 {
+  margin-left: 5em;
+  margin-bottom: 1em;
+}
